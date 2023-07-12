@@ -1,0 +1,194 @@
+.category-list-item {
+  list-style-type: none;
+  background-color: #fff;
+  height: 24px;
+  margin: 9px;
+  color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+  cursor: pointer;
+  outline: none;
+  width: 60px;
+  border-width: 0px;
+}
+.popup-item {
+  background-color: green;
+  list-style-type: none;
+
+  height: 24px;
+  margin: 9px;
+  color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+  cursor: pointer;
+  outline: none;
+  width: 60px;
+  border-width: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .popup-item {
+    height: 140px;
+    width: 240px;
+    margin: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .category-list-item {
+    height: 140px;
+    width: 240px;
+    margin: 10px;
+  }
+}
+
+.category-heading {
+  font-family: "Roboto";
+  font-size: 14px;
+  text-transform: capitalize;
+  color: #09295c;
+}
+
+@media screen and (min-width: 768px) {
+  .category-heading {
+    font-size: 25px;
+  }
+}
+.unlimited-jokes-text {
+  font-family: "Roboto";
+  font-size: 10px;
+  display: none;
+  color: #09295c;
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  .unlimited-jokes-text {
+    display: block;
+    font-size: 14px;
+    margin-top: 7px;
+  }
+}
+.popup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.joke-container {
+  background-image: linear-gradient(to left, #06242b, #106f85);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .joke-container {
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .joke-container {
+    border-radius: 9px;
+  }
+}
+.joke-category-heading {
+  font-family: "Roboto";
+  font-size: 30px;
+  font-weight: bolder;
+  color: #fff;
+  text-transform: capitalize;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.joke-text-container {
+  background-color: transparent;
+  border: 2px solid #000;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 15px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .jokes-text-container {
+    padding: 22px;
+  }
+}
+.joke-text {
+  font-family: "Roboto";
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .joke-text {
+    font-size: 30px;
+    width: 560px;
+  }
+}
+.next-joke-button {
+  background-color: #2f36fa;
+  color: #000;
+  height: 35px;
+  width: 90px;
+  border-width: 0px;
+  margin: 16px;
+  font-family: "Roboto";
+  font-size: 17px;
+  font-weight: 700;
+  border-radius: 7px;
+  cursor: pointer;
+  outline: none;
+}
+@media screen and (min-width: 768px) {
+  .next-joke-button {
+    width: 200px;
+  }
+}
+.cancel-button {
+  border: none;
+  background-color: transparent;
+
+  cursor: pointer;
+  outline: none;
+  align-self: flex-end;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .cancel-button {
+    left: 290px;
+  }
+}
+.cross-icon {
+  height: 30px;
+  width: 30px;
+  color: #fff;
+}
+.joke-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.loader-container {
+  height: 40px;
+  width: 40px;
+}
+
+.category-button {
+  border: none;
+  background-color: transparent;
+}
