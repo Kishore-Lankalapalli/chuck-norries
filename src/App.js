@@ -1,6 +1,6 @@
 import {Component} from 'react'
 
-import JokeCategoryItem from './components/JokeCategoryItem'
+import JokeCategoryItem from '../src/JokeCategoryItem'
 import './App.css'
 
 class App extends Component {
